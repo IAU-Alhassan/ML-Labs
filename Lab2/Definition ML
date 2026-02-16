@@ -1,0 +1,10 @@
+Q1- The ML consider Classification
+Q2- yes there is a target value (column name: class)
+    1 = spam email
+    0 = non-spam email
+Q3- The model predicts weather the email spam or not:
+    1- the words pattern ( free, money, ....)
+    2- the symbol appear ( #, $ ,!, .....)
+The problem:
+The goal is for the model to learn patterns from the training emails so it can correctly predict whether previously unseen emails are spam or not
+— helping email services filter junk mail effectively.
