@@ -1,0 +1,14 @@
+import pandas as pd
+
+df = pd.read_csv("dataset_44_spambase.csv")
+
+print("Shape of the dataset:", df.shape)         
+
+print("\nFirst 5 rows:")
+print(df.head())
+
+print("\nColumns and data types:")
+print(df.dtypes)
+
+print("\nClass distribution (0 = non-spam, 1 = spam):")
+print(df['class'].value_counts(normalize=True) * 100)
